@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background: $brand-secondary;
+    font: 16px/1.5 $font;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: $brand-primary;
+    text-decoration: none;
+
+    &:hover {
+        color: $brand-primary;
+        text-decoration: underline;
+    }
+}

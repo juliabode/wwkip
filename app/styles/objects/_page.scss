@@ -1,0 +1,32 @@
+.page {
+    background-size: 101%;
+    background-color: $white;
+    padding: 5em 3em 6.5em;
+    width: 77.6em;
+    height: 110.12857em;;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.image {
+    background: url(../images/europe.jpg) no-repeat top center;
+    width: 90%;
+    height: 619px;
+
+    &.asia {
+        background-image: url(../images/asia.jpg);
+    }
+
+    &.america {
+        background-image: url(../images/america.jpg);
+    }
+
+    &.africa {
+        background-image: url(../images/africa.jpg);
+    }
+
+    &.southpacific {
+        background-image: url(../images/southpacific.jpg);
+    }
+}

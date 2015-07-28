@@ -1,0 +1,14 @@
+.navbar-header {
+    text-align: center;
+}
+
+a.navbar-brand {
+    text-indent: -99999px;
+    display: block;
+    background-image: url("../img/logo.png");
+    height: 110px;
+    background-repeat: no-repeat;
+    margin: $space-double auto;
+    background-size: contain;
+    background-position: center center;
+}
