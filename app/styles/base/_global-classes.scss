@@ -61,38 +61,6 @@
     text-align: left;
 }
 
-/* Display Classes */
-.hide-small {
-    @media all and (max-width: $bp-med) {
-        display: none;
-    }
-}
-
-.hide-med {
-    @media all and (min-width: $bp-med) and (max-width: $bp-large) {
-        display: none;
-    }
-}
-
-.hide-large {
-    @media all and (min-width: $bp-large) {
-        display: none;
-    }
-}
-
-//
-.valid {
-    color: $valid;
-}
-
-.error {
-    color: $error;
-}
-
-.info {
-
-}
-
 
 /* Text */
 
@@ -100,19 +68,6 @@
     font-style: italic;
 }
 
-
-/* Background Colours */
-.bg--white {
-    background-color: $white;
-}
-
-.bg--black {
-    background-color: $black;
-}
-
-.bg--red {
-    background-color: $red;
-}
 
 
 div.pos--init {

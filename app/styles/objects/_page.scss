@@ -1,5 +1,5 @@
 .page {
-    background-size: 101%;
+    font-size: 12px;
     background-color: $white;
     padding: 5em 3em 6.5em;
     width: 77.6em;
@@ -11,8 +11,10 @@
 
 .image {
     background: url(../images/europe.jpg) no-repeat top center;
-    width: 90%;
-    height: 619px;
+    background-size: contain;
+    width: 100%;
+    height: 39em;
+    margin: 5em 0;
 
     &.asia {
         background-image: url(../images/asia.jpg);
@@ -30,3 +32,4 @@
         background-image: url(../images/southpacific.jpg);
     }
 }
+

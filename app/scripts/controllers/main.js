@@ -8,7 +8,7 @@
  * Controller of the wwkipApp
  */
 angular.module('wwkipApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope, $http) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -22,5 +22,11 @@ angular.module('wwkipApp')
         { name: "europe" },
         { name: "southpacific"}
     ];
+
+    $scope.createPdf = function() {$scope.msg = "in";
+        $http.get('application/runPhantomjs.php').success( function() {
+            $scope.msg = "Pdf created.";
+        });
+    };
 
   });

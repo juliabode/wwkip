@@ -1,30 +1,27 @@
 input,
 textarea {
-    height: 32px;
-    margin: 0px 0 15px;
-    width: 100%;
-    padding: 4px 6px;
-    border: 1px solid rgba(20, 75, 106, 0.25);
-    font-size: 14px;
-    font-family: Arial, sans-serif;
+    height: 2em !important;
+    width: auto !important;
+    margin: 0px 0 1em;
+    padding: 0.5em;
+    border: 1px solid $white;
+    font-size: $font-size-norm;
+    border-radius: 3px;
+
+    &:focus,
+    &:hover {
+        border-color: $green;
+        outline: none;
+    }
 }
 
 textarea {
-    height: 79px;
-    display: inherit;
+    overflow: hidden;
+    resize: none;
+    font-family: $font;
 }
 
-input[type="submit"] {
-    color: #c2615f;
-    text-transform: uppercase;
-    cursor: pointer;
-    @include transition(all, .3s, ease);
-    background: white;
-    border-color: #c2615f;
-
-    &:hover {
-        color: $white;
-        background-color: $brand-primary;
-        @include transition(all, .3s, ease);
-    }
+label {
+    font-size: $font-size-norm;
+    color: $font-special;
 }

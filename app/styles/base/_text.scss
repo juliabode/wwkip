@@ -1,3 +1,18 @@
-.content p {
-    margin: $space 0;
+p {
+    font-size: $font-size-norm;
+    text-align: center;
+}
+
+.smaller-text {
+    font-size: $font-size-smaller;
+}
+
+.larger-text {
+    font-size: $font-size-larger;
+}
+
+.special-text {
+    font-size: $font-size-large-2;
+    color: $font-special;
+    margin-top: $space;
 }

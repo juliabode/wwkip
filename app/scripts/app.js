@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/print', {
+        templateUrl: 'print.html',
+        controller: 'MainCtrl',
+        controllerAs: 'print'
+      })
       .otherwise({
         redirectTo: '/'
       });
