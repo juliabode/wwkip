@@ -1,10 +1,15 @@
 <link rel="stylesheet" href="styles/print.css">
 
-<div ng-controller="MainCtrl">
+<div ng-controller="PrintCtrl">
+    <div class="choose">
+        <p>Region:</p>
 
-    <p class="region">Region:</p>
+        <select ng-model="region" ng-options="region.name for region in regions track by region.name"></select>
 
-    <select ng-init="region = regions[3]" ng-model="region" ng-options="region.name for region in regions"></select>
+        <p>Language:</p>
+
+        <select ng-model="language" ng-options="language.name for language in languages track by language.name" ng-change="changeLanguage(language)"></select>
+    </div>
 
     <div class="page">
         <div class="image {{region.name}}"></div>
@@ -12,15 +17,15 @@
         <h1>World Wide Knit in Public Day</h1>
         <h2>13 * June * 2015</h2>
 
-        <p class="special-text">Join us as we knit with hundreds of other knitters around the world on the same day!</p>
+        <p class="special-text">{{ 'description' | translate }}</p>
 
         <form>
             <div>
-                <label>Where:</label>
+                <label>{{ 'where' | translate }}</label>
                 <input type="text" value="some place">
             </div>
             <div>
-                <label>When:</label>
+                <label>{{ 'when' | translate }}</label>
                 <input type="text" value="some place">
             </div>
             <div>
