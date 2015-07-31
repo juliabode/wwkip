@@ -1,0 +1,19 @@
+/* line 3, ../../app/styles/print.scss */
+.header,
+.footer,
+.choose {
+  display: none;
+}
+
+/* line 7, ../../app/styles/print.scss */
+body {
+  background: white;
+}
+
+/* line 11, ../../app/styles/print.scss */
+.page {
+  height: auto;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByaW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx5Q0FBeUM7QUFDekM7OztFQUdFLGNBQWM7Q0FDZjs7QUFFRCx5Q0FBeUM7QUFDekM7RUFDRSxrQkFBa0I7Q0FDbkI7O0FBRUQsMENBQTBDO0FBQzFDO0VBQ0UsYUFBYTtFQUNiLGlCQUFpQjtDQUNsQiIsImZpbGUiOiJwcmludC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBsaW5lIDMsIC4uLy4uL2FwcC9zdHlsZXMvcHJpbnQuc2NzcyAqL1xyXG4uaGVhZGVyLFxyXG4uZm9vdGVyLFxyXG4uY2hvb3NlIHtcclxuICBkaXNwbGF5OiBub25lO1xyXG59XHJcblxyXG4vKiBsaW5lIDcsIC4uLy4uL2FwcC9zdHlsZXMvcHJpbnQuc2NzcyAqL1xyXG5ib2R5IHtcclxuICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxufVxyXG5cclxuLyogbGluZSAxMSwgLi4vLi4vYXBwL3N0eWxlcy9wcmludC5zY3NzICovXHJcbi5wYWdlIHtcclxuICBoZWlnaHQ6IGF1dG87XHJcbiAgYm94LXNoYWRvdzogbm9uZTtcclxufVxyXG4iXX0= */
